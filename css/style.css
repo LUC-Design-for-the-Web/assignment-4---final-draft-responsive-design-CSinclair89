@@ -1,0 +1,525 @@
+@font-face {
+	font-family: Bahnschrift;
+	src: url(../font/Bahnschrift.ttf);
+	src: url(../font/Bahnschrift.otf);
+  	src: url(../font/Bahnschrift.woff);
+}
+
+/* Home Page Styling */
+
+p {
+	color: white;
+	font-family: bahnschrift;
+	font-size: 28px;
+
+}
+
+body {
+	background-color: black;
+}
+
+#homemain {
+	display: block;
+	text-align: center;
+	margin:  auto;
+
+}
+
+@keyframes topline {
+	0% {width: 0%; opacity: 100%;}
+	100% {width: 100%; opacity: 100%;}
+}
+
+#homehr1div {
+	clear: both;
+}
+
+#homehr1 {
+	margin-bottom: 0px;
+	margin-top: 0px;
+	opacity: 0%;
+	float: left;
+	width: 100%;
+	border-color: #6757F9;
+	-webkit-animation: topline .65s 1 forwards;
+	animation-delay: 0.5s;
+}
+
+@keyframes bottomline {
+	0% {width: 0%; opacity: 100%;}
+	100% {width: 100%; opacity: 100%;}
+}
+
+#homehr2div {
+	clear: both;
+}
+
+#homehr2 {
+	margin-bottom: 0px;
+	margin-top: 0px;
+	opacity: 0%;
+	float: right;
+	width: 100%;
+	border-color: #6757F9;
+	-webkit-animation: bottomline .65s 1 forwards;
+	animation-delay: 0.5s;
+}
+
+@keyframes footeranim {
+	0% {opacity: 0%;}
+	100% {opacity: 100%;}
+}
+
+#homefooter {
+	opacity: 0%;
+	background-color: black;
+	-webkit-animation: footeranim 3s 1 forwards;
+	animation-delay: 1.75s;
+}
+
+#homebutton {
+	background-color: black;
+	color:  white;
+	margin-right: 20px;
+	font-size:  18px;
+	font-family: bahnschrift;
+	border: none;
+	cursor: pointer;
+}
+
+#homebutton:hover {
+	color: rgb(179, 179, 179);
+}
+
+@keyframes menuanim {
+	0% {opacity: 0%;}
+	100% {opacity: 100%;}
+}
+
+#homemenu {
+	position: relative;
+	z-index: 999;
+	opacity: 0%;
+	float: left;
+	margin-bottom: -12px;
+	-webkit-animation: menuanim 3s 1 forwards;
+	animation-delay: 1.75s;
+}
+
+#container {
+	margin:  auto;
+	padding-top:  30px;
+	max-width: 1000px;
+}
+
+@keyframes socialsanim {
+	0% {opacity: 0%;}
+	100% {opacity: 100%;}
+}
+
+
+#homesocials {
+	opacity: 0%;
+	width: 300px;
+	height: 25px;
+	float: right;
+	margin-bottom: -5px;
+	padding-bottom: 8px;
+	-webkit-animation: socialsanim 3s 1 forwards;
+	animation-delay: 1.75s;
+}
+
+#homesocials img {
+	display: block;
+	float: right;
+	width: 10%;
+	margin-right: 3px;
+}
+
+@keyframes imganim {
+	0% {transform: scale(0); opacity: 0%;}
+	10% {transform: scale(0.1); opacity: 40%;}
+	60% {transform: scale(1.15); opacity: 100%;}
+	90% {transform: scale(.97); opacity: 100%;}
+	100% {transform: scale(1); opacity: 100%;}
+}
+
+img {
+	width: 100%;
+}
+
+.img {
+	display: block;
+	opacity: 0%;
+	max-width: 450px;
+	padding-right: 30px;
+	float:  left;
+	margin-right: 1rem;
+	margin-right: calc(.5rem + 2vw);
+	object-fit: cover;
+	shape-outside: circle(49%);
+	animation-timing-function: cubic-bezier();
+	-webkit-animation: imganim 0.4s 1 forwards;
+	animation-delay: 1.25s;
+}
+
+@keyframes introanim {
+	0% {opacity: 0%;}
+	100% {opacity: 100%;}
+}
+
+.intro p {
+	margin:  3rem auto;
+	text-align: justify;
+	opacity: 0%;
+	-webkit-animation: introanim 3s 1 forwards;
+	animation-delay: 1.75s;
+}
+
+/* End Home Page Styling */
+
+/* Sub Page Styling */
+
+p {
+	color: white;
+	font-family: bahnschrift;
+	font-size: 28px;
+
+}
+
+body {
+	background-color: black;
+}
+
+#main {
+	display: block;
+	text-align: center;
+	margin:  auto;
+
+}
+
+#musicmain {
+	float: left;
+	text-align: center;
+	padding: 20px 0px 30px 30px;
+	margin: auto;
+}
+
+#animmain {
+	padding:  30px;
+	text-align: center;
+}
+
+#musicmain {
+	margin:  auto;
+	text-align: center;
+}
+
+#albumplaylist {
+	display:  block;
+	float: right;
+	padding-left:  20px;
+}
+
+#hr1div {
+	clear: both;
+}
+
+#hr1 {
+	margin-bottom: 0px;
+	margin-top: 0px;
+	float: left;
+	width: 100%;
+	border-color: #6757F9;
+}
+
+#hr2div {
+	clear: both;
+}
+
+#hr2 {
+	margin-bottom: 0px;
+	margin-top: 0px;
+	float: right;
+	width: 100%;
+	border-color: #6757F9;
+}
+
+footer {
+	background-color: black;
+}
+
+#button {
+	background-color: black;
+	color:  white;
+	margin-right: 20px;
+	font-size:  18px;
+	font-family: bahnschrift;
+	border: none;
+	cursor: pointer;
+}
+
+#button:hover {
+	color: rgb(179, 179, 179);
+}
+
+#menu {
+	position: relative;
+	z-index: 999;
+	float: left;
+	margin-bottom: -12px;
+}
+
+#container {
+	margin:  auto;
+	padding-top:  30px;
+	max-width: 1000px;
+}
+
+#socials {
+	width: 300px;
+	height: 25px;
+	float: right;
+	margin-bottom: -5px;
+	padding-bottom: 8px;
+}
+
+#socials img {
+	display: block;
+	float: right;
+	width: 10%;
+	margin-right: 3px;
+}
+
+#resume p, h2, h3, span {
+	color: white;
+	font-family: bahnschrift;
+	font-size: 18px;
+	text-align: center;
+}
+
+/* End Sub Page Styling */
+
+/* Pseudo classes & Media Queries */
+
+.music, .animation {
+	display:  inline-block;
+}
+
+.music-content, .animation-content {
+	display:  none;
+	position:  absolute;
+	background-color: black;
+	min-width: 160px;
+	padding:  6px 6px;
+	z-index:  1;
+}
+
+.music-content a, .animation-content a {
+	font-family: bahnschrift;
+	color: white;
+	padding: 6px 16px;
+	text-decoration: none;
+	display: block;
+}
+
+.music-content a:hover, .animation-content a:hover {
+	color:  rgb(179, 179, 179);
+}
+
+.music:hover .music-content, .animation:hover .animation-content {
+	display: block;
+}
+
+@media screen and (max-width: 800px) {
+	
+	#container {
+		max-width: 800px;
+	}
+
+	#homebutton {
+		background-color: black;
+		color:  white;
+		margin-right: 10px;
+		font-size:  18px;
+		font-family: bahnschrift;
+		border: none;
+		cursor: pointer;
+	}
+
+	#homehr1 {
+		margin-bottom: 0px;
+		margin-top: 0px;
+		opacity: 100%;
+		float: none;
+		width: 100%;
+		border-color: #6757F9;
+		-webkit-animation: none;
+		animation-delay: 0s;
+	}
+
+	#homehr2 {
+		margin-bottom: 0px;
+		margin-top: 0px;
+		opacity: 100%;
+		float: none;
+		width: 100%;
+		border-color: #6757F9;
+		-webkit-animation: none;
+		animation-delay: 0s;
+	}
+
+	#homemenu {
+		padding-top: 20px;
+		font-size: 18px;
+		opacity: 100%;
+		float: left;
+		margin-bottom: -60px;
+		-webkit-animation: none;
+		animation-delay: 0;
+	}
+
+	img {
+		width: 100%;
+	}
+
+	.img {
+		display: block;
+		opacity: 100%;
+		padding: 20px;
+		float:  none;
+		margin: auto;
+		shape-outside: none;
+		animation-timing-function: none;
+		-webkit-animation: none;
+		animation-delay: 0s;
+		}
+
+	#homesocials {
+		display: block;
+		float: right;
+		opacity: 100%;
+		width: 300px;
+		height: 25px;
+		margin: 5px;
+		padding: 8px;
+		-webkit-animation: none;
+		animation-delay: 0s;
+	}
+
+	#homesocials img {
+		display: block;
+		float: right;
+		width: 10%;
+		margin-right: 3px;
+	}
+
+	.intro p {
+		margin:  auto;
+		padding: 20px;
+		text-align: center;
+		opacity: 100%;
+		-webkit-animation: none;
+		animation-delay: 0s;
+	}
+
+
+}
+
+@media screen and (max-width: 550px) {
+
+	#container {
+		max-width: 480px;
+	}
+
+	#homebutton {
+		background-color: black;
+		color:  white;
+		margin-right: 20px;
+		font-size:  25px;
+		font-family: bahnschrift;
+		border: none;
+		cursor: pointer;
+		text-align: center;
+	}
+
+	#homehr1 {
+		margin-bottom: 0px;
+		margin-top: 0px;
+		opacity: 100%;
+		float: none;
+		width: 100%;
+		border-color: #6757F9;
+		-webkit-animation: none;
+		animation-delay: 0s;
+	}
+
+	#homehr2 {
+		margin-bottom: 0px;
+		margin-top: 0px;
+		opacity: 100%;
+		float: none;
+		width: 100%;
+		border-color: #6757F9;
+		-webkit-animation: none;
+		animation-delay: 0s;
+	}
+
+	#homemenu {
+		text-align: center;
+		margin: auto;
+		font-size: 25px;
+		opacity: 100%;
+		float: center;
+		margin-bottom: -12px;
+		-webkit-animation: none;
+		animation-delay: 0;
+	}
+
+	img {
+		width: 100%;
+	}
+
+	.img {
+		display: block;
+		opacity: 100%;
+		padding: 20px;
+		float:  none;
+		margin: auto;
+		shape-outside: none;
+		animation-timing-function: none;
+		-webkit-animation: none;
+		animation-delay: 0s;
+		}
+
+	#homesocials {
+		display: block;
+		text-align: center;
+		margin: auto;
+		opacity: 100%;
+		width: 300px;
+		height: 25px;
+		margin: 5px;
+		padding: 8px;
+		-webkit-animation: none;
+		animation-delay: 0s;
+	}
+
+	#homesocials img {
+		display: block;
+		float: left;
+		width: 10%;
+		margin-right: 3px;
+	}
+
+	.intro p {
+		margin:  auto;
+		padding: 20px;
+		text-align: center;
+		opacity: 100%;
+		-webkit-animation: none;
+		animation-delay: 0s;
+	}
+}
+
+/* End Pseudo Classes and Media Queries */
